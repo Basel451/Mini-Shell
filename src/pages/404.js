@@ -27,9 +27,9 @@ const codeStyles = {
 // markup
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
+    <center style={pageStyles}>
+      <title>Nicht gefunden</title>
+      <h1 style={headingStyles}>Keine Seite gefunden</h1>
       <p style={paragraphStyles}>
         Sorry{" "}
         <span role="img" aria-label="Pensive emoji">
@@ -45,9 +45,9 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <Link to="/">Zur Homepage</Link>.
       </p>
-    </main>
+    </center>
   )
 }
 
