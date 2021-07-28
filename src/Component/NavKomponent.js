@@ -7,7 +7,7 @@ const NavKomponent = () => {
     <>
       <div className="div_Navigation">
         <div className="logo">
-            <img src={logo} alt="AHK" />
+            <img src={logo} alt="AHK" width="200px" height="105px"/>
         </div>
         <div className="NEUES">
             <h3 >NEUES</h3>
