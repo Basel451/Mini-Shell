@@ -10,31 +10,31 @@ const NavKomponent = () => {
             <img src={logo} alt="AHK" width="200px" height="105px"/>
         </div>
         <div className="NEUES">
-            <h3 >NEUES</h3>
+            <h4 >NEUES</h4>
         </div>
         <div className="DIE_AHK">
-            <h3 >DIE AHK</h3>
+            <h4 >DIE AHK </h4>
         </div>
         <div className="KLETTERN">
-            <h3 >KLETTERN</h3>
+            <h4 >KLETTERN</h4>
         </div>
         <div className="ARTISTIK">
-            <h3 >ARTISTIK</h3>
+            <h4 >ARTISTIK</h4>
         </div>
         <div className="HALLE59">
-            <h3 >HALLE59</h3>
+            <h4 >HALLE59</h4>
         </div>
         <div className="TRAILS59">
-            <h3 >TRAILS59</h3>
+            <h4 >TRAILS59</h4>
         </div>
         <div className="TRIAL">
-            <h3 >TRIAL</h3>
+            <h4 >TRIAL</h4>
         </div>
         <div className="KONTAKT">
-            <h3 >KONTAKT</h3>
+            <h4 >KONTAKT</h4>
         </div>
         <div className="SHOP">
-            <h3 >SHOP</h3>
+            <h4 >SHOP</h4>
         </div>
       </div>
     </>
