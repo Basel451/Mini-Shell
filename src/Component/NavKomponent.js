@@ -10,7 +10,7 @@ const NavKomponent = ({ value, fun }) => {
           className="logo"
           role="button"
           tabIndex="0"
-          onMouseDown={() => {
+          onClick={() => {
             fun("/");
           }}
         >
@@ -26,7 +26,7 @@ const NavKomponent = ({ value, fun }) => {
           className="KLETTERN"
           role="button"
           tabIndex="0"
-          onMouseDown={() => {
+          onClick={() => {
             fun("/KLETTERN");
           }}
         >
@@ -36,7 +36,7 @@ const NavKomponent = ({ value, fun }) => {
           className="ARTISTIK"
           role="button"
           tabIndex="0"
-          onMouseDown={() => {
+          onClick={() => {
             fun("/ARTISTIK");
           }}
         >
@@ -46,7 +46,7 @@ const NavKomponent = ({ value, fun }) => {
           className="HALLE59"
           role="button"
           tabIndex="0"
-          onMouseDown={() => {
+          onClick={() => {
             fun("/HALLE59");
           }}
         >
@@ -59,7 +59,7 @@ const NavKomponent = ({ value, fun }) => {
           className="TRIAL"
           role="button"
           tabIndex="0"
-          onMouseDown={() => {
+          onClick={() => {
             fun("/TRIAL");
           }}
         >
