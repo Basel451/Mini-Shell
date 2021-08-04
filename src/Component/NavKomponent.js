@@ -8,7 +8,9 @@ const NavKomponent = ({ value, fun }) => {
       <div className="div_Navigation">
         <div
           className="logo"
-          onClick={() => {
+          role="button"
+          tabIndex="0"
+          onMouseDown={() => {
             fun("/");
           }}
         >
@@ -20,27 +22,47 @@ const NavKomponent = ({ value, fun }) => {
         <div className="DIE_AHK">
           <h4>DIE AHK </h4>
         </div>
-        <div className="KLETTERN" onClick={() => {
+        <div
+          className="KLETTERN"
+          role="button"
+          tabIndex="0"
+          onMouseDown={() => {
             fun("/KLETTERN");
-          }}>
+          }}
+        >
           <h4>KLETTERN</h4>
         </div>
-        <div className="ARTISTIK" onClick={() => {
+        <div
+          className="ARTISTIK"
+          role="button"
+          tabIndex="0"
+          onMouseDown={() => {
             fun("/ARTISTIK");
-          }}>
+          }}
+        >
           <h4>ARTISTIK</h4>
         </div>
-        <div className="HALLE59" onClick={() => {
+        <div
+          className="HALLE59"
+          role="button"
+          tabIndex="0"
+          onMouseDown={() => {
             fun("/HALLE59");
-          }}>
+          }}
+        >
           <h4>HALLE59</h4>
         </div>
         <div className="TRAILS59">
           <h4>TRAILS59</h4>
         </div>
-        <div className="TRIAL" onClick={() => {
+        <div
+          className="TRIAL"
+          role="button"
+          tabIndex="0"
+          onMouseDown={() => {
             fun("/TRIAL");
-          }}>
+          }}
+        >
           <h4>TRIAL</h4>
         </div>
         <div className="KONTAKT">
